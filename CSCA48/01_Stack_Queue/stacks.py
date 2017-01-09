@@ -9,20 +9,20 @@ class StackA:
         ''' (Stack) -> NoneType
         Create a new, empty stack.
         '''
-        self._contents = []
+        self._container = []
 
     def push(self, new_obj):
         ''' (Stack, object) -> NoneType
         Place new_obj on top of this stack.
         '''
-        self._contents.append(new_obj)
+        self._container.append(new_obj)
 
     def pop(self):
         ''' (Stack) -> object
         Remove and return the top item in this stack.
         '''
-        if self._contents != []:
-            return self._contents.pop()
+        if self._container != []:
+            return self._container.pop()
         else:
             raise EmptyStackException
 
@@ -30,8 +30,8 @@ class StackA:
         ''' (Stack) -> bool
         Return True iff this stack is empty
         '''
-        return self._contents == []
-        # return len(self._contents) == 0
+        return self._container == []
+        # return len(self._container) == 0
 
 
 class StackB:
@@ -41,29 +41,29 @@ class StackB:
         ''' (Stack) -> NoneType
         Create a new, empty Stack.
         '''
-        self._contents = []
+        self._container = []
 
     def push(self, new_obj):
         '''(Stack, object) -> NoneType
         Place new_obj on top of this stack.
         '''
         # Store the item to the beginning of the list
-        # (this is a bad idea, but we're doing it anyway)
-        self._contents.insert(0, new_obj)
+        # *****(this is a bad idea, but we're doing it anyway)*****
+        self._container.insert(0, new_obj)
 
     def pop(self):
         '''(Stack) -> object
         Remove and return the top item in this stack.
         '''
-        if self._contents != []:
-            return self._contents.pop(0)
+        if self._container != []:
+            return self._container.pop(0)
         else:
             raise EmptyStackException
 
     def is_empty(self):
         '''(Stack) -> bool
         Return True iff this stack is empty.'''
-        return self._contents == []
+        return self._container == []
 
 
 class StackC:
@@ -75,14 +75,14 @@ class StackC:
         '''
         # we're going to store the stack as a dictionary {k:v}
         # where k = height on stack, v = value
-        self._contents = {}
+        self._container = {}
         self._height = 0
 
     def push(self, new_obj):
         ''' (Stack, object) -> NoneType
         Place new_obj on top of this stack.
         '''
-        self._contents[self._height] = new_obj
+        self._container[self._height] = new_obj
         self._height += 1
 
     def pop(self):
@@ -96,7 +96,7 @@ class StackC:
             raise EmptyStackException
         else:
             self._height -= 1
-            return self._contents[self._height]
+            return self._container[self._height]
 
     def is_empty(self):
         '''(Stack) -> bool
