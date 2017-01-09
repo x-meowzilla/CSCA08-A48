@@ -9,6 +9,10 @@ def convert_to_binary(decimal_number):
     # which will eventually become the binary string
     remainder_stack = StackA()
 
+    # if decimal number is 0, then directly push to stack
+    if decimal_number == 0:
+        remainder_stack.push(decimal_number)
+
     # while decimal_number is greater than zero, keep dividing it by 2 (using
     # integer division) and pushing the remainder onto the stack. This will
     # result in the stack becoming a binary representation (read top to bottom)
@@ -29,5 +33,8 @@ def convert_to_binary(decimal_number):
     return binary_string
 
 if (__name__ == "__main__"):
+    print(convert_to_binary(0))
+    print(convert_to_binary(1))
+    print(convert_to_binary(10))
     print(convert_to_binary(42))
     print(convert_to_binary(13452))
