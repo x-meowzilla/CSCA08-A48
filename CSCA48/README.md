@@ -1,5 +1,8 @@
 CSCA48 Tutorial Materials
 ---------------
+Course Website: http://www.utsc.utoronto.ca/~bharrington/csca48/
+Instructor: Nick Cheng
+
 
 Table of Content
 ---------------
