@@ -1,5 +1,5 @@
 class EmptyQueueException(Exception):
-    print("Queue is Empty!")
+    pass
 
 
 class QueueA:
@@ -79,5 +79,5 @@ class QueueB:
 
 
 if __name__ == "__main__":
-    stkA = QueueA()
-    stkA.pop()
+    q = QueueA()
+    q.dequeue()

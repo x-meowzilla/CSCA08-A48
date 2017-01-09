@@ -1,5 +1,5 @@
 class EmptyStackException(Exception):
-    print("Stack is Empty!")
+    pass
 
 
 class StackA:

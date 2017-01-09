@@ -1,4 +1,4 @@
-from my_stacks import StackA
+from stacks import StackA
 
 
 def convert_to_binary(decimal_number):
