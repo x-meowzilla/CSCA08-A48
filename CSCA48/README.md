@@ -10,7 +10,9 @@ Table of Content
     + [stacks.py](./01_Stack_Queue/stacks.py)
     + [queues.py](./01_Stack_Queue/queues.py)
     + [decimal_to_binary.py](./01_Stack_Queue/decimal_to_binary.py)
-2. <b></b>
+2. <b>Deque</b> - Double ended queue (pronounced "deck")
+	+ [deque.py](./02_Deque/deque.py)
+	+ [Representation Invariants](https://www.cs.cmu.edu/~rwh/introsml/techniques/repinv.htm)
 3. <b></b>
 4. <b></b>
 5. <b></b>
