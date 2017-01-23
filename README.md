@@ -10,6 +10,6 @@ Table of Content
 	+ Course Website: http://www.utsc.utoronto.ca/~bharrington/csca08/
 	+ Instructor: Brian Harrington
 
-+ <b>[CSCA48](./CSCA48/)</b> - Updated on Jan 15
++ <b>[CSCA48](./CSCA48/)</b> - Updated on Jan 22
 	+ Course Website: http://www.utsc.utoronto.ca/~bharrington/csca48/
 	+ Instructor: Nick Cheng

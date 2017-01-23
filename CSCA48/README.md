@@ -13,7 +13,8 @@ Table of Content
 2. <b>Deque</b> - Double ended queue (pronounced "deck")
 	+ [deque.py](./02_Deque/deque.py)
 	+ [Representation Invariants](https://www.cs.cmu.edu/~rwh/introsml/techniques/repinv.htm)
-3. <b></b>
+3. <b>Doubly Linked List</b>
+	+ [dll.py](./03_Doubly_Linked_List/dll.py)
 4. <b></b>
 5. <b></b>
 6. <b></b>
