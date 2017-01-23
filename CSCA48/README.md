@@ -15,6 +15,8 @@ Table of Content
 	+ [Representation Invariants](https://www.cs.cmu.edu/~rwh/introsml/techniques/repinv.htm)
 3. <b>Doubly Linked List</b>
 	+ [dll.py](./03_Doubly_Linked_List/dll.py)
+	+ [Linked List YouTube Tutorial](https://www.youtube.com/watch?v=Ast5sKQXxEU)
+	+ [Doubly Linked List YouTube Tutorial](https://www.youtube.com/watch?v=sDP_pReYNEc)
 4. <b></b>
 5. <b></b>
 6. <b></b>
