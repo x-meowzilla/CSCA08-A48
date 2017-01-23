@@ -3,7 +3,7 @@ class DLLNode():
 
     def __init__(self, data, prev_link=None, next_link=None):
         ''' (DLLNode, object, DLLNode, DLLNode) -> NoneType
-        Create a new DLLNode containing object, with previous node
+        Create a new DLLNode containing data object, with previous node
         prev_link, and next node next_link.
         '''
         # Representation invariant:
@@ -11,10 +11,10 @@ class DLLNode():
         # prev_link is a DLLNode
         # next_link is a DLLNode
         # data is the item held in this node
-        # prev_link is the node immediately before (closer
-        # to the head of the list than) this node
-        # next_link is the node immediately after (closer
-        # to the tail of the list than) this node
+        # prev_link is the node immediately before (closer to the head of this
+        # doubly linked list than) this node
+        # next_link is the node immediately after (closer to the tail of the
+        # doubly linked list than) this node
         self._data = data
         self._prev_link = prev_link
         self._next_link = next_link
@@ -27,7 +27,7 @@ class DLLNode():
 
     def get_data(self):
         ''' (DLLNode) -> object
-        Return the data of this DLL node
+        Return the data object of this DLL node
         '''
         return self._data
 
@@ -45,13 +45,13 @@ class DLLNode():
 
     def set_next(self, node):
         ''' (DLLNode) -> NoneType
-        Connect the node node to next link
+        Connect the next_link of this DLLNode to the new DLLNode node
         '''
         self._next_link = node
 
     def set_previous(self, node):
         ''' (DLLNode) -> NoneType
-        Connect the node node to previous link
+        Connect the prev_link of this DLLNode to the new DLLNode node
         '''
         self._prev_link = node
 
@@ -68,7 +68,7 @@ class DoublyLinkedList():
         # _tail is a DLLNode
         # if the list is empty:
         #     _head = _tail = None
-        # if the list is non-empty:
+        # otherwise:
         #     _head is the first node in the list
         #     _tail is the last node in the list
         #     if nodeA and nodeB are both nodes in this list and nodeA is
@@ -76,6 +76,8 @@ class DoublyLinkedList():
         #         nodeA.next_link[.next_link]* = nodeB
         #             ([.next_link]* = 0 or more repetitions of .next_link)
         #         nodeB.prev_link[.prev_link]* = nodeA
+        # _size is int
+        # _size is the size of this DLL (number of nodes in the DLL)
         self._head = None
         self._tail = self._head
         self._size = 0
@@ -96,7 +98,7 @@ class DoublyLinkedList():
 
     def get_size(self):
         ''' (DoublyLinkedList) -> int
-        Return the size of the doubly linked list
+        Return the size of the DoublyLinkedList.
         '''
         return self._size
 
@@ -107,13 +109,14 @@ class DoublyLinkedList():
         node = DLLNode(data)
         # if empty node list
         if (self._head is None):
+            # point both _head and _tail to the new node
             self._head = node
             self._tail = self._head
         # if not empty
         else:
-            self._head.set_previous(node)
-            node.set_next(self._head)
-            self._head = node
+            self._head.set_previous(node)  # update _head backward link
+            node.set_next(self._head)  # update new node forward link
+            self._head = node  # update _head position
         # increase the size by 1
         self._size += 1
 
@@ -124,13 +127,14 @@ class DoublyLinkedList():
         node = DLLNode(data)
         # if empty node list
         if (self._head is None):
+            # point both _head and _tail to the new node
             self._head = node
             self._tail = self._head
         # if not empty
         else:
-            self._tail.set_next(node)
-            node.set_previous(self._tail)
-            self._tail = node
+            self._tail.set_next(node)  # update _tail forward link
+            node.set_previous(self._tail)  # update _new node backward link
+            self._tail = node  # update _tail position
         # increase the size by 1
         self._size += 1
 
@@ -145,19 +149,23 @@ class DoublyLinkedList():
             self.add_tail(data)
         else:
             node = DLLNode(data)
+            # need to pointer point to the _head, since _head and _tail are
+            # not allowed to move (except add_head() and add_tail())
             curr_node = self._head
             prev_node = curr_node.get_previous()
-            # loop thu the nodes to index, after looping thu nodes, prev is the
-            # index node, curr is the index+1 node
+            # loop through the nodes to index idx, after looping through nodes
+            # prev_node is the index node, curr_node is the index+1 node
             for i in range(idx):
                 prev_node = curr_node
                 curr_node = curr_node.get_next()
 
-            # prev link node
+            # prev_node connect forward link to new node
+            # new node connect backward link to prev_node
             prev_node.set_next(node)
             node.set_previous(prev_node)
 
-            # node link curr
+            # new node connect forward link to curr_node
+            # curr_node connect backward link to new node
             node.set_next(curr_node)
             curr_node.set_previous(node)
             self._size += 1
@@ -211,7 +219,7 @@ class DoublyLinkedList():
         Remove and return the item at index remove_index in this
         DoublyLinkedList.
         '''
-        # if remove index 0, then remove head node
+        # if remove index is 0, then remove head node
         if (idx == 0):
             removed_node = self.remove_head()
         # if remove index greater than the size of the linked list
@@ -220,26 +228,27 @@ class DoublyLinkedList():
             raise IndexError("Doubly linked list index out of range.")
         # if remove somewhere else, then
         else:
+            # need two pointers pointing to the _head
             curr_node = self._head
             prev_node = curr_node.get_previous()
-            removed_node = None
-            # loop thu the nodes to the index
+            removed_node = None  # removed node pointer
+            # loop through the DLL nodes to the index
             for i in range(idx):
                 prev_node = curr_node
                 curr_node = curr_node.get_next()
-
-            if (curr_node.get_next() is None):
+            # if curr_node
+            if (curr_node.get_next() is None):  # or (curr_node == self._tail)
                 self.remove_tail()
             else:
                 # mark the node to be removed
                 removed_node = curr_node
                 curr_node = curr_node.get_next()
 
-                # break the link for prev and curr nodes
+                # disconnect the link for prev and curr nodes
                 prev_node.set_next(curr_node)
                 curr_node.set_previous(prev_node)
 
-                # break the link for removed node
+                # disconnect the link for removed node
                 removed_node.set_next(None)
                 removed_node.set_previous(None)
 
@@ -301,13 +310,13 @@ if __name__ == "__main__":
     print("====================")
 
     dll.remove_index(3)  # remove from body
-    print("Remove index at 3", dll)
+    print("Remove index at 3 (body)", dll)
     print("DLL size:", dll.get_size())
     dll.remove_index(0)  # remove head
-    print("Remove index at 0", dll)
+    print("Remove index at 0 (head)", dll)
     print("DLL size:", dll.get_size())
-    dll.remove_index(4)  # remove tail
-    print("Remove index at 3", dll)
+    dll.remove_index(dll.get_size() - 1)  # remove tail
+    print("Remove index at %d (tail)" % (dll.get_size()), dll)
     print("DLL size:", dll.get_size())
     dll.remove_index(25)  # error
     print("Remove index at 25", dll)
