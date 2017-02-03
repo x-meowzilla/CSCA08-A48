@@ -18,7 +18,10 @@ Table of Content
 	+ YouTube Tutorial - [Linked List](https://www.youtube.com/watch?v=Ast5sKQXxEU)
 	+ YouTube Tutorial - [Doubly Linked List](https://www.youtube.com/watch?v=sDP_pReYNEc)
 4. <b>Tree Traversal</b>
-    + Comming Soon.
+    + [traversal.py](./04_Tree_Traversal/traversal.py)
+    + Pre-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_preorder.svg)
+    + In-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_inorder.svg)
+    + Post-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_postorder.svg)
 5. <b></b>
 6. <b></b>
 7. <b></b>
