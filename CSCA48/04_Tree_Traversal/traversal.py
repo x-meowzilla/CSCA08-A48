@@ -45,6 +45,8 @@ def mysterious_traversal(root):
 #   - Pre-order traversal
 #   - In-order traversal
 #   - Post-order traversal
+# Note: For DFS algorithms, it will be implemented once recursion is taught.
+#       Using loops to implement DFS is way too complicated to understand.
 
 
 if __name__ == "__main__":
@@ -57,5 +59,5 @@ if __name__ == "__main__":
                          BTNode("F", None, None),
                          BTNode("G", None, None)))
     print(root)
-    print("Use Queue as container:", level_order_traversal(root))
-    print("Use Stack as container:", mysterious_traversal(root))
+    print("Level-order Traversal output:", level_order_traversal(root))
+    print("Mysterious Traversal output:", mysterious_traversal(root))
