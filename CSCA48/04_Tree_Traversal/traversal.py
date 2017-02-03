@@ -4,6 +4,11 @@ from utility import BTNode, Stack, Queue
 # Breadth-First Search (BFS)
 #   - Level-order traversal
 def level_order_traversal(root):
+    """ (BTNode) -> list of BTNode
+
+    This is the level-order traversal algorithm. The function returns a list of BTNode.
+    For level-order traversal, it is commonly used a Queue to keep track of the level.
+    """
     q = Queue()
     output = []
 
@@ -17,7 +22,12 @@ def level_order_traversal(root):
     return output
 
 
-def level_order_traversal_stack(root):
+def mysterious_traversal(root):
+    """ (BTNode) -> list of BTNode
+
+    This traversal uses the same algorithm but with a Stack instead of Queue.
+    Play with it, find the pattern.
+    """
     q = Stack()
     output = []
 
@@ -37,7 +47,6 @@ def level_order_traversal_stack(root):
 #   - Post-order traversal
 
 
-
 if __name__ == "__main__":
     # what does the following tree look like?
     root = BTNode("A",
@@ -49,4 +58,4 @@ if __name__ == "__main__":
                          BTNode("G", None, None)))
     print(root)
     print("Use Queue as container:", level_order_traversal(root))
-    print("Use Stack as container:", level_order_traversal_stack(root))
+    print("Use Stack as container:", mysterious_traversal(root))
