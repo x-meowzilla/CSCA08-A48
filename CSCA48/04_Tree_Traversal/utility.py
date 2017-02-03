@@ -11,6 +11,10 @@ class BTNode():
         self.right = right
 
     def __repr__(self):
+        """ (BTNode) -> str
+
+        Return a string representation of this node.
+        """
         return self.data
 
     def __str__(self):
