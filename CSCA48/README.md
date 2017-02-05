@@ -27,5 +27,10 @@ Table of Content
 7. <b></b>
 8. <b></b>
 
+Term Test Solutions & Marking Scheme
+---------------
++ [Term Test 1](./TT1_solution_W2017.md)
+
+
 Past Exams & Solutions
 ---------------
