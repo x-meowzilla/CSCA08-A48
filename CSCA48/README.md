@@ -19,7 +19,7 @@ Table of Content
 	+ YouTube Tutorial - [Doubly Linked List](https://www.youtube.com/watch?v=sDP_pReYNEc)
 4. <b>Tree Traversal</b>
     + [traversal.py](./04_Tree_Traversal/traversal.py)
-    + [Tree Traversal Tricks](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree)
+    + Wikibooks - [Tree Traversal Tricks](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree)
 5. <b>Binary Search Tree</b>
     + [bst.py](./05_Binary_Search_Tree/bst.py)
 6. <b></b>
