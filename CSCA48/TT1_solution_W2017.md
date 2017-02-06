@@ -19,7 +19,7 @@ Term Test 1 Solution & Marking Scheme - Winter 2017
 
 **c) It's possible to read CRABAPPLE and print APPLECARB. Here's how.**
 
-    IN,IN,IN,EX,IN,PR,PR,PR,PR,EX,EX,EX,EX
+    IN,IN,IN,EX,IN,IN,PR,PR,PR,PR,EX,EX,EX,EX
 
 + The IN,EX pair may be replaced by PR if we replace a later PR by an IN,EX pair. So there are 5 shortest sequences. We extract one letter immediately after inserting it so that the subsequent EX,EX,EX,EX sequence will extract what's left in the steue (CRBA) in order CARB.
 + Give 1 mark for saying it's possible,
