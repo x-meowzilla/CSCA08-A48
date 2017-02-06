@@ -22,10 +22,13 @@ Table of Content
     + Pre-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_preorder.svg)
     + In-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_inorder.svg)
     + Post-order Traversals [Trick](https://en.wikibooks.org/wiki/A-level_Computing_2009/AQA/Problem_Solving,_Programming,_Operating_Systems,_Databases_and_Networking/Programming_Concepts/Tree_traversal_algorithms_for_a_binary_tree#/media/File:Sorted_binary_tree_postorder.svg)
-5. <b></b>
+5. <b>Binary Search Tree</b>
+    + [bst.py](./05_Binary_Search_Tree/bst.py)
 6. <b></b>
 7. <b></b>
 8. <b></b>
+9. <b></b>
+10. <b></b>
 
 Term Test Solutions & Marking Scheme
 ---------------
