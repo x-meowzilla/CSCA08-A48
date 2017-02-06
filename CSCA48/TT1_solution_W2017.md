@@ -132,6 +132,9 @@ Term Test 1 Solution & Marking Scheme - Winter 2017
             prev = head
             curr = head.next1
             while curr != None and curr.number <= newnum:
+                if curr.next1 != None and curr.next1.number > newnum:
+                    # restore stolen code here
+                    prev.next2 = newnode        # ----
                 prev = curr
                 curr = curr.next1
             # restore stolen code here
