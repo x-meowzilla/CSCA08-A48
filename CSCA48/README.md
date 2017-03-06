@@ -28,7 +28,9 @@ Table of Content
 7. <b>Recursion - Fundamental</b>
     + [same_string.py](./07_MoreRecursion/same_string.py)
     + [palindrome.py](./07_MoreRecursion/palindrome.py)
-8. <b></b>
+8. <b>Recursion - Advanced</b>
+    + [binary_search.py](./08_EvenMoreRecursion/binary_search.py)
+    + [ex6_solution.py](./08_EvenMoreRecursion/ex6_solution.py)
 9. <b></b>
 10. <b></b>
 
