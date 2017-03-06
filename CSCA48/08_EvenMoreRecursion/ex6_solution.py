@@ -69,7 +69,7 @@ def _second_smallest_helper(L, MIN=float('inf'), SMIN=float('inf'), MAX=float('-
     '''
     # if we come to empty list, we keep what it is
     if L == []:
-        return (MIN, SMIN, MAX)
+        result = (MIN, SMIN, MAX)
     else:
         # if we get a list inside, we recurse
         if isinstance(L[0], list):
@@ -77,7 +77,7 @@ def _second_smallest_helper(L, MIN=float('inf'), SMIN=float('inf'), MAX=float('-
             # it with the rest
             MIN, SMIN, MAX = _second_smallest_helper(L[0], MIN, SMIN, MAX)
             # compare
-            return (_second_smallest_helper(L[1:], MIN, SMIN, MAX))
+            result = _second_smallest_helper(L[1:], MIN, SMIN, MAX)
         elif isinstance(L[0], int):
             # compare the number
             if L[0] < MIN:
@@ -89,7 +89,8 @@ def _second_smallest_helper(L, MIN=float('inf'), SMIN=float('inf'), MAX=float('-
             if L[0] > MAX:
                 MAX = L[0]
             # do the recursion
-            return _second_smallest_helper(L[1:], MIN, SMIN, MAX)
+            result = _second_smallest_helper(L[1:], MIN, SMIN, MAX)
+    return result
 
 
 def sum_max_min(L):
