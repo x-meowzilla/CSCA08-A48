@@ -30,19 +30,19 @@ def rmax(L):
     1
     '''
     # base case
-    if(L == []):
+    if (L == []):
         result = float("-inf")
     else:
-        #deal with the first element
-        if(isinstance(L[0], list)):
+        # deal with the first element
+        if (isinstance(L[0], list)):
             first_max = rmax(L[0])
         else:
             first_max = L[0]
-        
-        #now deal with the rest of the list
+
+        # now deal with the rest of the list
         rest_max = rmax(L[1:])
-        
-        if(first_max > rest_max):
+
+        if (first_max > rest_max):
             result = first_max
         else:
             result = rest_max
@@ -78,7 +78,7 @@ def _second_smallest_helper(L, MIN=float('inf'), SMIN=float('inf'), MAX=float('-
             MIN, SMIN, MAX = _second_smallest_helper(L[0], MIN, SMIN, MAX)
             # compare
             result = _second_smallest_helper(L[1:], MIN, SMIN, MAX)
-        elif isinstance(L[0], int):
+        else:
             # compare the number
             if L[0] < MIN:
                 SMIN = MIN
