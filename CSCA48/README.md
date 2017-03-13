@@ -31,7 +31,8 @@ Table of Content
 8. <b>Recursion - Advanced</b>
     + [binary_search.py](./08_EvenMoreRecursion/binary_search.py)
     + [ex6_solution.py](./08_EvenMoreRecursion/ex6_solution.py)
-9. <b></b>
+9. <b>Tree Algorithms</b>
+    + [tree_algorithms.py](./09_Tree_Algorithms/tree_algorithms.py)
 10. <b></b>
 
 Term Test Solutions & Marking Scheme
