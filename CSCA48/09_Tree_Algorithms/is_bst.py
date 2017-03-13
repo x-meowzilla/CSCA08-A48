@@ -2,16 +2,16 @@ class BSTNode:
     """ A node in a binary tree. """
 
     def __init__(self, data, left=None, right=None):
-        """ (BinTreeNode, str, BinTreeNode, BinTreeNode) -> NoneType
+        """ (BSTNode, str, BSTNode, BSTNode) -> NoneType
 
-        Initialize a new BinTreeNode with data, left and right children.
+        Initialize a new BSTNode with data, left and right children.
         """
         self.data = data
         self.left = left
         self.right = right
 
     def __repr__(self):
-        """ (BinTreeNode) -> str
+        """ (BSTNode) -> str
 
         Return a string representing self.
         """
@@ -20,9 +20,9 @@ class BSTNode:
 
 
 def is_BST(root):
-    '''(BinTreeNode) -> bool
+    '''(BSTNode) -> bool
 
-    Return True if the tree is a BST
+    Return True iff the tree is a BST.
     '''
     # base case 0: the root is a leaf
     if not root.left and not root.right:
