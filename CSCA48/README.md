@@ -33,6 +33,8 @@ Table of Content
     + [ex6_solution.py](./08_EvenMoreRecursion/ex6_solution.py)
 9. <b>Tree Algorithms</b>
     + [tree_algorithms.py](./09_Tree_Algorithms/tree_algorithms.py)
+    + [is_bst.py](./09_Tree_Algorithms/is_bst.py)
+    + [recursive_traversal.py](./09_Tree_Algorithms/recursive_traversal.py)
 10. <b></b>
 
 Term Test Solutions & Marking Scheme
