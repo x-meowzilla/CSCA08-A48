@@ -8,12 +8,13 @@ def rsum(L):
     >>> rsum([1, 2, [4, [5, []]]])
     12
     '''
-    # base case
+    # base case: empty list
     if L == []:
         result = 0
-    # if the first element is a list
+    # recursive case: if the first element is a list
     elif isinstance(L[0], list):
         result = rsum(L[0]) + rsum(L[1:])
+    # recursive case: if the first element is a number
     else:
         result = L[0] + rsum(L[1:])
     return result
