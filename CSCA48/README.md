@@ -31,6 +31,7 @@ Table of Content
 8. <b>Recursion - Advanced</b>
     + [binary_search.py](./08_EvenMoreRecursion/binary_search.py)
     + [ex6_solution.py](./08_EvenMoreRecursion/ex6_solution.py)
+    + [ex6_solution_v2.py](./08_EvenMoreRecursion/ex6_solution_v2.py)
 9. <b>Tree Algorithms</b>
     + [tree_algorithms.py](./09_Tree_Algorithms/tree_algorithms.py)
     + [is_bst.py](./09_Tree_Algorithms/is_bst.py)
