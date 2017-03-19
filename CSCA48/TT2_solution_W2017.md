@@ -144,3 +144,15 @@ def unright_avg(root):
     (sum, num_nodes) = unright_helper(root, True)
     return sum/num_nodes
 ```
++ **Marking:**
+    + 1 mark for unright_helper function type contract, all or nothing
+    + 2 marks for function description
+    + 1 mark for better name for VAR1
+    + 1 mark for better name for VAR2
+    + 5 marks for unmangling body of helper function
+        + 5 marks = perfect
+        + 4 marks = almost perfect, some minor error exist
+        + 3 marks = some solution present, but not close
+        + 1 marks = far from correct solution
+    + 2 marks for body of unright_avg function
+        + 1 mark for each line, all or nothing
