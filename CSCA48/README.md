@@ -36,11 +36,14 @@ Table of Content
     + [tree_algorithms.py](./09_Tree_Algorithms/tree_algorithms.py)
     + [is_bst.py](./09_Tree_Algorithms/is_bst.py)
     + [recursive_traversal.py](./09_Tree_Algorithms/recursive_traversal.py)
-10. <b></b>
+10. <b>Insertion Sort</b>
+    + [insertion_sort.py](./10_Insertion_Sort/insertion_sort.py)
+    + [Sorting Algorithm Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 
 Term Test Solutions & Marking Scheme
 ---------------
 + [Term Test 1](./TT1_solution_W2017.md)
++ [Term Test 2](./TT2_solution_W2017.md)
 
 
 Past Exams & Solutions
