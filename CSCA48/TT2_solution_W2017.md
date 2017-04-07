@@ -1,7 +1,7 @@
 Term Test 2 Solution & Marking Scheme - CSCA48 Winter 2017
 ---------------
 
-####Question 1
+#### Question 1
 
 + **a) 8**
     + **Marking:** all or nothing
@@ -41,7 +41,7 @@ Term Test 2 Solution & Marking Scheme - CSCA48 Winter 2017
 
 ---------------
 
-####Question 2
+#### Question 2
 + **a)**
     ```
     jumble(PINEAPPLE) = PEPPLAINE  <---------------------------------------------
@@ -108,7 +108,7 @@ Term Test 2 Solution & Marking Scheme - CSCA48 Winter 2017
     
 ---------------
 
-####Question 3
+#### Question 3
 ```python
 def unright_helper(root, include_root):
     """ (IntBinTreeNode, bool) -> (int, int)
