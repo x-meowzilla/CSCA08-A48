@@ -6,6 +6,8 @@ CSCA48 Tutorial Materials
 
 Table of Content
 ---------------
+0. <b>Review</b>
+    + [memory_model.py](./00_Review/memory_model.py)
 1. <b>Stack & Queue</b>
     + [stacks.py](./01_Stack_Queue/stacks.py)
     + [queues.py](./01_Stack_Queue/queues.py)
