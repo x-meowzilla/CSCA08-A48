@@ -1,7 +1,8 @@
 from stacks import StackA
+from queues import QueueA
 
 
-def convert_to_binary(decimal_number):
+def convert_to_binary_stk(decimal_number):
     '''(int) -> str
     Return a string representing demical_number in binary
     '''
@@ -32,9 +33,39 @@ def convert_to_binary(decimal_number):
 
     return binary_string
 
+
+def convert_to_binary_q(decimal_number):
+    '''(int) -> str
+    Return a string representing demical_number in binary
+    '''
+    remainder_queue = QueueA()
+
+    if decimal_number == 0:
+        remainder_queue.enqueue(decimal_number)
+
+    while(decimal_number > 0):
+        remainder = decimal_number % 2
+        remainder_queue.enqueue(remainder)
+        decimal_number = decimal_number // 2
+
+    binary_string = ""
+
+    # only different from about is here, stack is FILO, but queue is FIFO
+    while(not (remainder_queue.is_empty())):
+        binary_string = str(remainder_queue.dequeue()) + binary_string
+
+    return binary_string
+
+
 if (__name__ == "__main__"):
-    print(convert_to_binary(0))
-    print(convert_to_binary(1))
-    print(convert_to_binary(10))
-    print(convert_to_binary(42))
-    print(convert_to_binary(13452))
+    print(convert_to_binary_stk(0))
+    print(convert_to_binary_stk(1))
+    print(convert_to_binary_stk(10))
+    print(convert_to_binary_stk(42))
+    print(convert_to_binary_stk(13452))
+
+    print(convert_to_binary_q(0))
+    print(convert_to_binary_q(1))
+    print(convert_to_binary_q(10))
+    print(convert_to_binary_q(42))
+    print(convert_to_binary_q(13452))
