@@ -11,6 +11,7 @@ Table of Content
 1. <b>Stack & Queue</b>
     + [stacks.py](./01_Stack_Queue/stacks.py)
     + [queues.py](./01_Stack_Queue/queues.py)
+    + [special_queue.py](./01_Stack_Queue/special_queue.py)
     + [decimal_to_binary.py](./01_Stack_Queue/decimal_to_binary.py)
 2. <b>Deque</b> - Double ended queue (pronounced "deck")
 	+ [deque.py](./02_Deque/deque.py)
