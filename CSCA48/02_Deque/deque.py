@@ -14,7 +14,11 @@ class Deque():
         # Representation invariant:
         # _container is a list of object.
         # _container[:] are the objects in the dequeue.
-        # if i < j, i >=0, j < len(_container), then
+        # len(_container) is the number of items in the deque
+        # if _container is not empty, then
+        #    - _left and _right are ints, where _left >= 0 and _right < len(_container)
+        #    - _container[_left], ..., _container[_right] are the ordered objects in the deque
+        # if i >= _left, j < _right, and i < j, then
         #    _container[i] is to the left of _container[j] in the deque
         #    _container[j] is to the right of _container[i] in the deque
         self._container = []
