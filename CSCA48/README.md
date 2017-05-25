@@ -43,6 +43,15 @@ Table of Content
     + [insertion_sort.py](./10_Insertion_Sort/insertion_sort.py)
     + [Sorting Algorithm Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 
+
+Other Helpful Notes
+---------------
++ Here are some helpful notes for Assignment 1 part 1
+    + [User Story](./Other_Notes/user_story.md)
+    + [Work Plan](./Other_Notes/work_plan.md)
+    + [Unittesting](./Other_Notes/testing.pdf)
+
+
 Term Test Solutions & Marking Scheme
 ---------------
 + [Term Test 1](./TT1_solution_W2017.md)
