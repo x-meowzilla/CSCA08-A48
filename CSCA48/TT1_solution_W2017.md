@@ -1,7 +1,7 @@
 Term Test 1 Solution & Marking Scheme - CSCA48 Winter 2017
 ---------------
 
-####Question 1
+#### Question 1
 
 **a) The shortest sequence that reads GRAPE and prints PAGER is**
 
@@ -27,7 +27,7 @@ Term Test 1 Solution & Marking Scheme - CSCA48 Winter 2017
 
 ---------------
 
-####Question 2
+#### Question 2
 
 ```python
     def __init__(self: 'Queue') -> None:
@@ -64,7 +64,7 @@ Term Test 1 Solution & Marking Scheme - CSCA48 Winter 2017
 
 ---------------
 
-####Question 3
+#### Question 3
 
 **a) Linked list is unchanged**
 ```
@@ -108,7 +108,7 @@ Term Test 1 Solution & Marking Scheme - CSCA48 Winter 2017
 
 ---------------
 
-####Question 4
+#### Question 4
 ```python
     def sorted_kroy_list_insert(head, newnum):
         """ (KroyNode, int) -> KroyNode
