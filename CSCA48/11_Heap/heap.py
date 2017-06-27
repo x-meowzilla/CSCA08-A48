@@ -2,7 +2,7 @@ class HeapEmptyError(Exception):
     '''To be thrown when attempting to extract from an empty heap'''
 
 
-class Heap(object):
+class Heap():
     '''A max-heap implementation'''
 
     def __init__(self, insert_list=[]):
@@ -14,10 +14,10 @@ class Heap(object):
         # if the heap is empty, _heap == []
         # otherwise
         # if i is an index in _heap
-            # if j = (i * 2) + 1 is an index in _heap
-                # _heap[j] <= heap[i]
-            # if j = (i * 2) + 2 is an index in _heap
-                # _heap[j] <= heap[i]
+        #     if j = (i * 2) + 1 is an index in _heap
+        #         _heap[j] <= heap[i]
+        #     if j = (i * 2) + 2 is an index in _heap
+        #         _heap[j] <= heap[i]
         self._heap = []
         for element in insert_list:
             self.insert(element)
@@ -48,7 +48,7 @@ class Heap(object):
 
         # Keep looping as long as we're still violating the heap condition
         # i.e., the child is > the parent
-        while(c_index > 0 and self._heap[c_index] > self._heap[p_index]):
+        while (c_index > 0 and self._heap[c_index] > self._heap[p_index]):
             # swap the parent and child
             self._swap(c_index, p_index)
             # move up one level
@@ -65,14 +65,29 @@ class Heap(object):
         '''(Heap) -> str
         Return a string representation of this Heap
         '''
-        return str(self._heap) + "\n" + self._str_helper(0, "")
+        return str(self._heap) + "\n" + self._str_helper(0, 0)
+
+    ## to draw top down
+    ## len/2 on left, middle node, len/2 on the right \n
+    ## recurse on left, right
+    def _str_helper(self, index=0, depth=0):
+        '''(Heap [, int, int]) -> str
+        Return a str representation of the heap.
+        '''
+        if index > len(self._heap) - 1:
+            return ''
+
+        return_str = self._str_helper(2 * index + 2, depth + 1)
+        return_str += '\t' * depth + str(self._heap[index]) + '\n'
+        return_str += self._str_helper(2 * index + 1, depth + 1)
+        return return_str
 
     def remove_max(self):
         '''(Heap) -> object
         Remove and return the largest element in the heap
         RAISES: HeapEmptyError if heap is empty
         '''
-        if(len(self._heap) == 0):
+        if (len(self._heap) == 0):
             raise HeapEmptyError("Attempt to remove from empty heap")
         else:
             # save the top element
@@ -82,7 +97,7 @@ class Heap(object):
             last = self._heap.pop()
             # as long as we've got at least 1 element left in the heap,
             # we need to re-establish the heap propery
-            if(len(self._heap) > 0):
+            if (len(self._heap) > 0):
                 self._heap[0] = last
                 self._bubble_down()
             return ret
@@ -98,15 +113,15 @@ class Heap(object):
         lt_index = (p_index * 2) + 1
         rt_index = (p_index * 2) + 2
         # keep looping while we violate the heap property
-        while(self._violates(p_index)):
+        while (self._violates(p_index)):
             # one of our children violates the heap property
             # if we only have a left child, it must be that one
-            if(rt_index >= len(self._heap)):
+            if (rt_index >= len(self._heap)):
                 self._swap(p_index, lt_index)
                 p_index = lt_index
 
             # if we have two children, we need to swap with the larger child
-            elif(self._heap[lt_index] > self._heap[rt_index]):
+            elif (self._heap[lt_index] > self._heap[rt_index]):
                 self._swap(p_index, lt_index)
                 p_index = lt_index
             else:
@@ -124,13 +139,23 @@ class Heap(object):
         lt_index = (index * 2) + 1
         rt_index = (index * 2) + 2
         # if we have no children, we're fine
-        if(lt_index >= len(self._heap)):
+        if (lt_index >= len(self._heap)):
             result = False
         # if we have one child, return True iff it violates
-        elif(rt_index >= len(self._heap)):
+        elif (rt_index >= len(self._heap)):
             result = self._heap[lt_index] > self._heap[index]
         # if we have two children, return True if either child violates
         else:
             result = (self._heap[lt_index] > self._heap[index] or
-                    self._heap[rt_index] > self._heap[index])
+                      self._heap[rt_index] > self._heap[index])
         return result
+
+
+if __name__ == '__main__':
+    my_heap = Heap([5, 1, 10, 2, 4, 8, 9, 3, 0])
+    print(my_heap)
+    my_list = []
+    for i in range(len([5, 1, 10, 2, 4, 8, 9, 3, 0])):
+        my_list.append(my_heap.remove_max())
+
+    print('my_list is', my_list)
