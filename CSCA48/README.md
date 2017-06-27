@@ -1,7 +1,7 @@
 CSCA48 Tutorial Materials
 ---------------
 + Course Website: http://www.utsc.utoronto.ca/~bharrington/csca48/
-+ Instructor: Nick Cheng
++ Instructor: Brian Harrington
 
 
 Table of Content
@@ -42,6 +42,8 @@ Table of Content
 10. <b>Insertion Sort</b>
     + [insertion_sort.py](./10_Insertion_Sort/insertion_sort.py)
     + [Sorting Algorithm Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+11. <b>Heap</b>
+    + [heap](./11_Heap/heap.py)
 
 
 Other Helpful Notes
