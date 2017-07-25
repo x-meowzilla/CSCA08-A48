@@ -50,14 +50,6 @@ Email Address:
     + Replace line #:
     + With new code:
 
-
-+ **Note 1:** To insert between two lines, use .5 as indicator. For example:
-    + If insert between line 125 and 126, use:
-        Replace line #: 125.5
-        With new code:        self._option = new_option
-+ **Note 2:** Do not remove any lines in this form, do not change the form structure.
-
-
 #### Declaration:
 It is my responsibility to read and completely understand the rules for this request as well as to ensure the accuracy of my request!
 
@@ -66,3 +58,9 @@ By submitting this form, I agree that I am bound to the rules outlined above and
 **Signature Here:** 
 
 ---------------
+
++ **Note 1:** To insert between two lines, use .5 as indicator. For example:
+    + If insert between line 125 and 126, use:
+        Replace line #: 125.5
+        With new code:        self._option = new_option
++ **Note 2:** Do not remove any lines in this form, do not change the form structure.
