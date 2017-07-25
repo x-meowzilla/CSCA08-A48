@@ -3,6 +3,9 @@ CSCA48 Tutorial Materials
 + Course Website: http://www.utsc.utoronto.ca/~bharrington/csca48/
 + Instructor: Brian Harrington
 
+Special Remark Request for Assignment 1
+---------------
+[Remark Form](./remark.md)
 
 Table of Content
 ---------------
