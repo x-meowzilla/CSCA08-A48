@@ -55,7 +55,7 @@ It is my responsibility to read and completely understand the rules for this req
 
 By submitting this form, I agree that I am bound to the rules outlined above and that my request is accurate and complete.
 
-**Signature Here:** 
+**E-Signature Here:** 
 
 ---------------
 
