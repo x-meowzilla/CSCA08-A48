@@ -4,7 +4,7 @@ If you've made a silly mistake that caused you lots of marks, we (mostly Brian) 
 PLEASE READ CAREFULLY! You only have one chance to submit the request.
 
 ### Here are the rules
-+ You get _**up to 5 lines**_ you get to change anywhere in your submission with whatever **(max) 80 characters** (an entire replacement line). 
++ You get _**up to 5 lines**_ to change anywhere in your submission with whatever **(max) 80 characters** (an entire replacement line). 
 + Each line you change results in an immediate **10% auto-mark deduction**.
 + Please ensure that you have the right line numbers, and that your code is _**exactly**_ as it should appear on that line **(with appropriate indentation)**.
 + Please keep in mind that this is a mostly automated process! So any changes must be precise as it could actually crash your entire code. For example:
