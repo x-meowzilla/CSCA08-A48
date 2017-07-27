@@ -15,7 +15,7 @@ PLEASE READ CAREFULLY! You only have one chance to submit the request.
 + If not properly formatted, it could **lose even more marks**. So you really want to be careful here. If this happens and it's not our fault, you will have no recourse.
 + The automated script will only read max 79 characters per line, after that everything is abruptly stripped, so this may cause problems if you try playing the system. This includes trying to fit multiple lines in one with new line characters. Don't do it.
 
-### This form needs to be submitted before July 28, 2017 @ 5:00PM EST.
+### This form needs to be submitted before Sunday, July 30, 2017 @ 11:59PM EST.
 
 #### This form can only be submitted once, and once submitted - IT CANNOT BE REVOKED!!
 
