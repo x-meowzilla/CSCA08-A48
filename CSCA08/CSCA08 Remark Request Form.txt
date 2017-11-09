@@ -1,9 +1,13 @@
 CSCA08 Remark Request Form
 ------------------------------
-Note that this e-mail must be sent to Eric Wang <ericheqi.wang@mail.utoronto.ca> with the subject line exactly as below (replacing the parts in angle brackets
-with the appropriate info for the request), and must be sent within 1 week of the assignment mark being posted:
+Note that this e-mail must be sent to Eric Wang <ericheqi.wang@mail.utoronto.ca> with the subject line
+exactly as below (replacing the parts in angle brackets with the appropriate info for the request), 
+and must be sent within 1 week of the assignment mark being posted:
 
-Remark Request: <CSCA08 Remark: Assignment #> - <MarkUs Username>
+
+
+
+<CSCA08 Remark: Assignment #> - <MarkUs Username>
 
 ------------------------------
 Full Name:
