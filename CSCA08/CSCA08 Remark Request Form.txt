@@ -1,0 +1,33 @@
+CSCA08 Remark Request Form
+------------------------------
+Note that this e-mail must be sent to Eric Wang <ericheqi.wang@mail.utoronto.ca> with the subject line exactly as below (replacing the parts in angle brackets
+with the appropriate info for the request), and must be sent within 1 week of the assignment mark being posted:
+
+Remark Request: <CSCA08 Remark: Assignment #> - <MarkUs Username>
+
+------------------------------
+Full Name:
+MarkUs Username:
+Exercise/Assignment:
+
+Please put a X beside the reason for this remark request, and complete the related fields:
+
+_ I never received a report file.
+	Date/Time file was submitted:
+
+_ I have a report file, but I cannot see my mark on MarkUs.
+
+_ I believe that there is a problem with the automarker
+	Test case name:
+	Text copied from automarker:
+	Explanation of why you think this is incorrect:
+
+_ There has been a calculation error (the mark shown does not reflect the mark given in the report file/on MarkUs).
+	Mark I believe I should have received:
+
+_ I believe the marking scheme was incorrectly applied.
+	The following are a list of sections where I believe the marking scheme was incorrectly applied, and an explanation
+	of what I believe to be wrong (one section per line)
+	
+	example:
+	Internal Comments - I have comments in my entire file, but I received a commenting mark of 0/2
