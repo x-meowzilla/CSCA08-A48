@@ -10,9 +10,9 @@ and must be sent within 1 week of the assignment mark being posted:
 <CSCA08 Remark: Assignment #> - <MarkUs Username>
 
 ------------------------------
-Full Name:
-MarkUs Username:
-Exercise/Assignment:
+Full Name: sourena khanzadeh
+MarkUs Username: khanzad2
+Exercise/Assignment: a0
 
 Please put a X beside the reason for this remark request, and complete the related fields:
 
@@ -29,9 +29,14 @@ _ I believe that there is a problem with the automarker
 _ There has been a calculation error (the mark shown does not reflect the mark given in the report file/on MarkUs).
 	Mark I believe I should have received:
 
-_ I believe the marking scheme was incorrectly applied.
+X I believe the marking scheme was incorrectly applied.
 	The following are a list of sections where I believe the marking scheme was incorrectly applied, and an explanation
 	of what I believe to be wrong (one section per line)
 	
-	example:
-	Internal Comments - I have comments in my entire file, but I received a commenting mark of 0/2
+	I have written codes as efficiently as possible yet I have recieved  3/12 in efficieny because one of my functions
+	were apparantly very hard to follow, yet I asked other TA's and they said it is very easy to follow.
+	
+	I have recieved 6/12 in commenting even though I have commented as clear as possible.
+	
+	I have recieved 4/8 in following the rules even though I have used only one magic number in one of my functions.
+	
