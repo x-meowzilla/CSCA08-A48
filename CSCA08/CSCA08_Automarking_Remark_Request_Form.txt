@@ -1,0 +1,39 @@
+CSCA08 Automarking Remark Request Form
+------------------------------
+This e-mail must be sent to Eric Wang <ericheqi.wang@mail.utoronto.ca> with the subject line
+exactly as below (replacing the parts in angle brackets with the appropriate info for the request)
+
+READ CAREFULLY
+
+
+
+<CSCA08 Automarking Remark: Assignment #> - <MarkUs Username>
+
+------------------------------
+Full Name:
+MarkUs Username:
+Assignment:
+
+
+
+>>> Penalty will be applied to this remark request. <<<
+>>> We will take the second run as the final mark, namely, we do not take the maximum of the 2 marks. <<<
+
+
+
+Instruction:
+You may add/delete/change up to 2 lines, results in 10% automarker deduction per line.
+Please email me which line(s) you would like to add/delete/change, use the following format.
+	i.e: add: line ###: m = 1
+	i.e: delete: line ###
+	i.e: change: line ###: replace to: n = 1
+
+
+
+If you did not receive automarking report, most likely your code has infinite loop.
+Check the code yourself, and send me the line change request. Penalty applied as described above.
+
+If you submitted the file with wrong filename, please indicate in the email.
+I will manually correct your filename and re-run it. This one has 10% Automarking mark deduction.
+
+Again, you are only allowed to change up to 2 lines, and your mark might be lower than original. Be aware.
