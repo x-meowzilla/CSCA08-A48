@@ -11,11 +11,12 @@ Table of Content
 ---------------
 0. <b>Review</b>
     + [memory_model.py](./00_Review/memory_model.py)
-1. <b>Stack & Queue</b>
-    + [stacks.py](./01_Stack_Queue/stacks.py)
-    + [queues.py](./01_Stack_Queue/queues.py)
-    + [special_queue.py](./01_Stack_Queue/special_queue.py)
-    + [decimal_to_binary.py](./01_Stack_Queue/decimal_to_binary.py)
+1. <b>Abstract Data Type (ADT)</b>
+    + [stacks.py](./01_ADT/stacks.py)
+    + [queues.py](./01_ADT/queues.py)
+    + [decimal_to_binary.py](./01_ADT/decimal_to_binary.py)
+    + [vector.py](./01_ADT/vector.py)
+    + [vector_advanced.py](./01_ADT/vector_advanced.py) - play around with Abstract Base Class (ABC)
 2. <b>Deque</b> - Double ended queue (pronounced "deck")
 	+ [deque.py](./02_Deque/deque.py)
 	+ [Representation Invariants](https://www.cs.cmu.edu/~rwh/introsml/techniques/repinv.htm)
