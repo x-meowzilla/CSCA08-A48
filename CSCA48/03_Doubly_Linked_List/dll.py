@@ -124,6 +124,12 @@ class DoublyLinkedList():
         '''
         return self._head
 
+    def get_tail(self):
+        ''' (DoublyLinkedList) -> DLLNode
+        Return the tail of the doubly linked structure in this DLL
+        '''
+        return self._tail
+
     def add_head(self, data):
         '''(DoublyLinkedList, object) -> NoneType
         Add data to the head of this DoublyLinkedList.
