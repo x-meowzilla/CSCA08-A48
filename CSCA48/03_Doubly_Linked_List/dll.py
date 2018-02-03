@@ -1,7 +1,7 @@
 class DLLNode():
     """ A Node in a doubly-linked list """
 
-    def __init__(self, data, prev_link=None, next_link=None):
+    def __init__(self, data, prev_node=None, next_node=None):
         ''' (DLLNode, object, DLLNode, DLLNode) -> NoneType
         Create a new DLLNode containing data object, with previous node
         prev_link, and next node next_link.
@@ -16,8 +16,8 @@ class DLLNode():
         # next_link is the node immediately after (closer to the tail of the
         # doubly linked list than) this node
         self._data = data
-        self._prev_link = prev_link
-        self._next_link = next_link
+        self._prev_node = prev_node
+        self._next_node = next_node
 
     def __str__(self):
         ''' (DLLNode) -> str
@@ -35,25 +35,25 @@ class DLLNode():
         ''' (DLLNode) -> DLLNode
         Return the next node.
         '''
-        return self._next_link
+        return self._next_node
 
     def get_previous(self):
         ''' (DLLNode) -> DLLNode
         Return the previous node.
         '''
-        return self._prev_link
+        return self._prev_node
 
     def set_next(self, node):
         ''' (DLLNode) -> NoneType
         Connect the next_link of this DLLNode to the new DLLNode node
         '''
-        self._next_link = node
+        self._next_node = node
 
     def set_previous(self, node):
         ''' (DLLNode) -> NoneType
         Connect the prev_link of this DLLNode to the new DLLNode node
         '''
-        self._prev_link = node
+        self._prev_node = node
 
 
 class DoublyLinkedList():
@@ -96,11 +96,33 @@ class DoublyLinkedList():
             curr_node = curr_node.get_next()
         return "Doubly Linked List: " + str(dll_list)
 
+    def __eq__(self, other):
+        ''' (DoublyLinkedList) -> bool
+        Return True if both linked list contains exactly the same element
+        '''
+        curr_self = self.get_head()
+        curr_other = other.get_head()
+        is_identical = True
+        while curr_self and curr_other and is_identical:
+            if curr_self.get_data() != curr_other.get_data():
+                is_identical = False
+            else:
+                curr_self = curr_self.get_next()
+                curr_other = curr_other.get_next()
+
+        return is_identical and self.get_size() == other.get_size()
+
     def get_size(self):
         ''' (DoublyLinkedList) -> int
         Return the size of the DoublyLinkedList.
         '''
         return self._size
+
+    def get_head(self):
+        ''' (DoublyLinkedList) -> DLLNode
+        Return the head of the linked structure in this DLL.
+        '''
+        return self._head
 
     def add_head(self, data):
         '''(DoublyLinkedList, object) -> NoneType
