@@ -103,12 +103,23 @@ class DoublyLinkedList():
         curr_self = self.get_head()
         curr_other = other.get_head()
         is_identical = True
+        # checking forward link
         while curr_self and curr_other and is_identical:
             if curr_self.get_data() != curr_other.get_data():
                 is_identical = False
             else:
                 curr_self = curr_self.get_next()
                 curr_other = curr_other.get_next()
+
+        curr_self = self.get_tail()
+        curr_other = other.get_tail()
+        # checking backward link
+        while curr_self and curr_other and is_identical:
+            if curr_self.get_data() != curr_other.get_data():
+                is_identical = False
+            else:
+                curr_self = curr_self.get_previous()
+                curr_other = curr_other.get_previous()
 
         return is_identical and self.get_size() == other.get_size()
 
