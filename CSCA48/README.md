@@ -58,12 +58,10 @@ Other Helpful Notes
     + [Unittesting](./Other_Notes/testing.pdf)
 
 
-Term Test Solutions & Marking Scheme
----------------
-+ [Term Test 1](./TT1_solution_W2017.md)
-+ [Term Test 2](./TT2_solution_W2017.md)
-
-
-Past Exams & Solutions
+Past Exams & Solutions & Marking Scheme
 ---------------
 + [2015 - Midterm](./TT_solution_W2015.md)
++ [2016 - Term Test 1]() - To be added
++ [2016 - Term Test 2]() - To be added
++ [2017 - Term Test 1](./TT1_solution_W2017.md)
++ [2017 - Term Test 2](./TT2_solution_W2017.md)
