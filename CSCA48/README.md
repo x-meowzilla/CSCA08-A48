@@ -52,7 +52,7 @@ Table of Content
 
 Other Helpful Notes
 ---------------
-+ Here are some helpful notes for Assignment 1 part 1
++ Here are some helpful notes for (past) assignment
     + [User Story](./Other_Notes/user_story.md)
     + [Work Plan](./Other_Notes/work_plan.md)
     + [Unittesting](./Other_Notes/testing.pdf)
