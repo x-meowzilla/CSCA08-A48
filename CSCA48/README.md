@@ -5,7 +5,7 @@ CSCA48 Tutorial Materials
 
 Special Remark Request for Assignment 1
 ---------------
-[Remark Form](./remark.md)
+[Remark Form](./remark.txt)
 
 Table of Content
 ---------------
