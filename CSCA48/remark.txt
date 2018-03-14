@@ -1,17 +1,3 @@
-========================================================================
-FILE UNDER CONSTRUCTION. DO NOT SUBMIT REMARK UNTIL I ANNOUNCE ON PIAZZA
-========================================================================
-
-
-
-
-
-
-
-
-
-
-
 CSCA48 Remark Request Form
 ------------------------------
 READ THE FOLLOWING CAREFULLY
@@ -79,9 +65,7 @@ _ Others. (To be discussed with the instructor, penalty may apply) *
 
 *   If you request to re-run automarker, we will take the second result as the final automarking mark.
     Namely, we do not take the maximum, and your new automarking grade (and deduction) might be lower than original grade.
-**  You may select multiple options, the deduction will be calculated separately.
-
-*** Make your decision wisely.
+**  You may select multiple options, the deduction will be calculated separately. Make your decision wisely.
 
 
 == Manual Marking ==:
