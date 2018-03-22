@@ -43,8 +43,8 @@ Table of Content
     + [tree_algorithms.py](./09_Tree_Algorithms/tree_algorithms.py)
     + [is_bst.py](./09_Tree_Algorithms/is_bst.py)
     + [recursive_traversal.py](./09_Tree_Algorithms/recursive_traversal.py)
-10. <b>Insertion Sort</b>
-    + [insertion_sort.py](./10_Insertion_Sort/insertion_sort.py)
+10. <b>Time Complexity Analysis</b>
+    + [insertion_sort.py](./10_Complexity_Analysis/insertion_sort.py)
     + [Sorting Algorithm Visualization](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 11. <b>Heap</b>
     + [heap](./11_Heap/heap.py)
