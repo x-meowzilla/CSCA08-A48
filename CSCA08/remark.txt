@@ -40,6 +40,13 @@ _ I name my class/method/function(s) wrong. (Penalty applied) *
     Required name:
     Your class/method/function name:
 
+_ I would like to request for code change. (Penalty applied) *
+    Note: You may add/delete/replace up to __2__ lines, results in 10% automarking deduction per line change.
+    Please use the following format:
+        add to: line ###: m = 1
+        delete: line ###
+        replace with: line ###: n = 1
+
 _ The report indicates that my code has invalid byte error(s). (Penalty applied) *
     Note: This option has 10% automarking deduction per correction, up to 30% deduction in total (no correction limit).
         That is, if 3+ corrections required, all of them will be corrected and your total automarking deduction is 30%.
