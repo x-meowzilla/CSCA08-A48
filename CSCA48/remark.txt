@@ -8,57 +8,72 @@ and must be sent within 1 week of the assignment mark being posted:
 
 
 
+
 <CSCA48 Remark: Assignment __#__> - <__UTORid__>
 
 ------------------------------
 Full Name:
 MarkUs Username (UTORid):
+Assignment: 
 
 Please put a X beside the reason for this remark request, and complete the related fields:
 
 
 == Auto-marking ==:
 
-_ I never received a report file. (Unittest is already posted on Piazza, run it before you submit with this option)
+___ I never received a report file. (Unittest is already posted on Piazza, run it before you submit with this option)
 	Date/Time file was submitted:
 
-_ I have a report file, but I cannot see my mark on MarkUs.
 
-_ I believe that there is a problem with the automarker
-	Test case name:
-	Text copied from automarker:
+___ I have a report file, but I cannot see my mark on MarkUs.
+
+
+___ I believe that there is a problem with the automarker
+    Test case name:
+    Text copied from automarker:
 	Explanation of why you think this is incorrect:
 
-_ There has been a calculation error (the mark shown does not reflect the mark given in the report file/on MarkUs).
+
+___ There has been a calculation error (the mark shown does not reflect the mark given in the report file/on MarkUs).
     Mark I believe I should have received:
 
-_ I name my file wrong. (Penalty applied) *
+
+___ I name my file wrong. (Penalty applied) *
     Note: This option has 10% overall deduction.
 
-_ I name my class/method/function(s) wrong. (Penalty applied) *
-    Note: This option has 10% automarking deduction per name change. (Others that calls this class/method/function is also changed)
+
+___ I name my class/method/function(s) wrong. (Penalty applied) *
+    Note: This option has 10% automarking deduction per name change. (Others that call this class/method/function is also changed)
     Required name:
     Your class/method/function name:
 
-_ I would like to request for code change. (Penalty applied) *
-    Note: You may add/delete/replace up to __2__ lines, results in 10% automarking deduction per line change.
-    Please use the following format:
-        add to: line ###: m = 1
-        delete: line ###
-        replace with: line ###: n = 1
 
-_ The report indicates that my code has invalid byte error(s). (Penalty applied) *
-    Note: This option has 10% automarking deduction per correction, up to 30% deduction in total (no correction limit).
-        That is, if 3+ corrections required, all of them will be corrected and your total automarking deduction is 30%.
+___ I would like to request for code change. (Penalty applied) *
+    Note: You may add/delete/replace up to __2__ lines, results in 10% automarking deduction per line change.
+    First line change:
+        add to: line ###: m = 1
+        delete: line ###
+        replace with: line ###:
+    Second line change:
+        add to: line ###:
+        delete: line ###
+        replace with: line ###:
+
+
+___ The report indicates that my code has invalid byte error(s). (Penalty applied) *
+    Note: This option has 10% automarking deduction per correction, up to 20% deduction in total (no correction limit).
+        That is, if 2+ corrections required, we correct all of them and your total automarking deduction is 20%.
             SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0x## in position #
             UnicodeDecodeError: 'ascii' codec can't decode byte 0x## in position #
     Line number(s):
 
-_ I used some data types that are restricted from the handout. (Penalty applied) *
+
+___ I used some data types that are restricted from the handout (and Piazza). (Penalty applied) *
     Note: This option has 50% automarking deduction.
         If none of the options above solve the issue, then use this option.
 
-_ Others. (To be discussed with the instructor, penalty may apply) *
+
+___ Others. (To be discussed with the instructor, penalty may apply) *
     Briefly describe your issue:
     Your possible solution:
 
@@ -70,7 +85,7 @@ _ Others. (To be discussed with the instructor, penalty may apply) *
 
 == Manual Marking ==:
 
-_ I believe the marking scheme was incorrectly applied.
+___ I believe the marking scheme was incorrectly applied.
 	The following are a list of sections where I believe the marking scheme was incorrectly applied,
 	and an explanation of what I believe to be wrong (one section per line)
 	
