@@ -50,11 +50,11 @@ ___ I name my class/method/function(s) wrong. (Penalty applied) *
 
 ___ I would like to request for code change. (Penalty applied) *
     Note: You may add/delete/replace up to __2__ lines, results in 10% automarking deduction per line change.
-    First line change:
-        add to: line ###: m = 1
+    First line change: (File name: ________)
+        add to: line ###: m = 1
         delete: line ###
         replace with: line ###:
-    Second line change:
+    Second line change: (File name: ________)
         add to: line ###:
         delete: line ###
         replace with: line ###:
