@@ -1,4 +1,4 @@
-CSCA48 Remark Request Form
+CSCA08 Remark Request Form
 ------------------------------
 READ THE FOLLOWING CAREFULLY
 
@@ -9,12 +9,12 @@ and must be sent within 1 week of the assignment mark being posted:
 
 
 
-<CSCA48 Remark: Assignment __#__>
+<CSCA08 Remark: Assignment __3__>
 
 ------------------------------
 Full Name:
 MarkUs Username (UTORid):
-Assignment: 
+Assignment: 3
 
 Please put a X beside the reason for this remark request, and complete the related fields:
 
