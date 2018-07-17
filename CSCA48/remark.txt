@@ -6,7 +6,7 @@ This e-mail must be sent to Eric Wang <ericheqi.wang@utoronto.ca>. You may downl
 The subject line must be exactly shown as below (replacing the parts in brackets with the appropriate info),
 and must be sent within 1 week of the assignment mark being posted:
 
-ONLY ONE REMARK REQUEST PER PERSON, ANY ADDITIONAL REQUESTS WILL BE IGNORED!
+ONLY ONE REMARK REQUEST PER PERSON, ANY ADDITIONAL REQUESTS FROM THE SAME PERSON WILL BE IGNORED!
 
 
 
@@ -49,7 +49,7 @@ ___ I name my class/method/function(s) wrong. (Penalty applied) *
     Your class/method/function name:
 
 
-___ I directly accessed class variable(s) and failed the auto-testing. I request to use the code from the course website.  (For A1 only. Penalty applied) *
+___ I directly access class variable(s) and failed the auto-testing. I request to use the code from the course website.  (For A1 only. Penalty applied) *
     Note: This option has 10% automarking deduction.
 
 
