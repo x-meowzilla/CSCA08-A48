@@ -6,6 +6,7 @@ This e-mail must be sent to Eric Wang <ericheqi.wang@utoronto.ca>. You may downl
 The subject line must be exactly shown as below (replacing the parts in brackets with the appropriate info),
 and must be sent within 1 week of the assignment mark being posted:
 
+ONLY ONE REMARK REQUEST PER PERSON, ANY ADDITIONAL REQUESTS WILL BE IGNORED!
 
 
 
@@ -28,7 +29,7 @@ ___ I never received a report file. (Unittest is already posted on Piazza, run i
 ___ I have a report file, but I cannot see my mark on MarkUs.
 
 
-___ I believe that there is a problem with the automarker
+___ I believe that there is a problem with the automarker.
     Test case name:
     Text copied from automarker:
 	Explanation of why you think this is incorrect:
@@ -43,9 +44,13 @@ ___ I name my file wrong. (Penalty applied) *
 
 
 ___ I name my class/method/function(s) wrong. (Penalty applied) *
-    Note: This option has 10% automarking deduction per name change. (Others that call this class/method/function is also changed)
+    Note: This option has 10% automarking deduction per name change. (Others that call this class/method/function is automatically changed)
     Required name:
     Your class/method/function name:
+
+
+___ I directly accessed class variable(s) and failed the auto-testing. I request to use the code from the course website.  (For A1 only. Penalty applied) *
+    Note: This option has 10% automarking deduction.
 
 
 ___ I would like to request for code change. (Penalty applied) *
